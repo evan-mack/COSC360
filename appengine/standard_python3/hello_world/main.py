@@ -28,7 +28,7 @@ def hello():
     return 'Hello World!'
 
 @app.route('/about')
-def hello():
+def hello2():
     """Return a friendly HTTP greeting."""
     return 'Evan\'s about page! \n300277556'
 
