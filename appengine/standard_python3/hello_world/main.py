@@ -27,6 +27,11 @@ def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
 
+@app.route('/about')
+def hello():
+    """Return a friendly HTTP greeting."""
+    return 'Evan\'s about page!'
+
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
